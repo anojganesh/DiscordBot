@@ -1,8 +1,8 @@
 
 #Values
-#Application ID: 1141267102485987410
-#Public Key: 9d8fcffefaf9843a7dd0d5603b822ea64801823f9c8bf15e718b390397291f37
-#Bot Token: MTE0MTI2NzEwMjQ4NTk4NzQxMA.GTIwW0.hCocZA4oITUtk3MOv3aeFdIs_IrdoDl1bL8og4
+#Application ID: *Omitted*
+#Public Key: *Omitted*
+#Bot Token: *Omitted*
 #Invite Link: https://discord.com/api/oauth2/authorize?client_id=1141267102485987410&permissions=2048&scope=bot
 #General Channel.id: 1141267769334186036
 #Bot Updates Channel.id: 1141564136107548775
@@ -53,4 +53,4 @@ async def on_message(message):
                             await channel.send("Bot is now Offline.")
             await bot.close()
         
-bot.run('MTE0MTI2NzEwMjQ4NTk4NzQxMA.GTIwW0.hCocZA4oITUtk3MOv3aeFdIs_IrdoDl1bL8og4')
+bot.run(#Temporarily disabled)
