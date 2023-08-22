@@ -78,6 +78,13 @@ async def appCommandB(interaction):
     gif_link = await getGifsReturnRandomURL('cartoon laugh', TENOR_TOKEN)
     await interaction.response.send_message(gif_link)
 
+#Custom gif command
+@ctree.command(name = "gif", description = "Send a custom GIF!")
+@app_commands.describe(search_term = "What GIF would you like to send?")
+async def appCommandC(interaction, search_term : str):
+    gif_link = await getGifsReturnRandomURL(search_term, TENOR_TOKEN)
+    await interaction.response.send_message(gif_link)
+
 @bot.event
 async def on_disconnect():
     print("bot disconnected")
